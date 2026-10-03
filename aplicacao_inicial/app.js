@@ -40,7 +40,7 @@ elToggleTheme.addEventListener("click", () => {
     state.dark ? "#334155" : "#e5e7eb",
   );
   elTitle.textContent = state.dark
-    ? "Mini App – Modo Escuro"
+    ? "Mini App – Modo Claro"
     : "Mini App – GitFlow";
   elToggleTheme.setAttribute("aria-pressed", String(state.dark));
 });
